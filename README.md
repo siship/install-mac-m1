@@ -1,4 +1,4 @@
-# Conda isntallation in Mac M1.
+# Conda installation in Mac M1.
 
 Since Anaconda is not Apple Silicon (i.e. ARM processor) compatible; therefore, [Miniforge](https://github.com/conda-forge/miniforge) can be installed which has Conda. 
 
