@@ -15,22 +15,22 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/sishirkalita/.zprofil
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-Now, install [Miniforge](https://github.com/conda-forge/miniforge)
+## Now, install [Miniforge](https://github.com/conda-forge/miniforge)
 ```
 brew install miniforge
 ```
 
-Initialize conda
+### Initialize conda
 ```
 conda init zsh
 ```
 
-Create conda env
+### Create conda env
 ```
 conda create -n macml python=3.8
 ````
 
-Environment location: 
+### Environment location: 
 ```
 /opt/homebrew/Caskroom/miniforge/base/envs/macml
 ```
@@ -39,7 +39,7 @@ Environment location:
 conda activate macula
 ```
 
-Install required packages:
+## Install required packages:
 ```
 conda install notebook -y
 conda install matplotlib -y
